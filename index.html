@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <container>
+    <main>
+      <header>
+        <div class="left-header">
+          <h1>Notifications
+            <span id="number-notifications">3</span>
+          </h1>
+        </div>
+        <div class="right-header">
+          <span id="mark-read">Mark all as read</span>
+        </div>
+      </header>
+
+      <section class="unread-post">
+        <div class="left-post-side"><img src="assets/images/avatar-mark-webber.webp"
+            alt="Mark Webber's Profile Picture"></div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Mark Webber</strong> reacted to your recent post <span class="stronger">My first tournament
+              today!</span>
+            <span class="red-dot"></span>
+          </div>
+          <p class="when-posted">1m ago</p>
+        </div>
+      </section>
+
+      <section class="unread-post">
+        <div class="left-post-side"><img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray Profile Picture">
+        </div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Angela Gray</strong> followed you
+            <span class="red-dot"></span>
+          </div>
+          <p class="when-posted">5m ago</p>
+        </div>
+      </section>
+
+      <section class="unread-post">
+        <div class="left-post-side"><img src="assets/images/avatar-jacob-thompson.webp"
+            alt="Jacob Thompson's Profile Picture"></div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Jacob Thompson</strong> has joined your group <span class="chess-club">Chess Club</span>
+            <span class="red-dot"></span>
+          </div>
+          <p class="when-posted">1 day ago</p>
+        </div>
+      </section>
+      <section class="read-post">
+        <div class="left-post-side"><img src="assets/images/avatar-rizky-hasanuddin.webp"
+            alt="Rizky Hasunuddin's Profile Picture">
+        </div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Rizky Hasanuddin</strong> sent you a private message
+          </div>
+          <p class="when-posted">5 days ago</p>
+        </div>
+      </section>
+      <section class="reply">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </section>
+
+      <section class="read-post">
+        <div class="left-post-side"><img src="assets/images/avatar-kimberly-smith.webp"
+            alt="Kimberly Smith's Profile Picture"></div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Kimberly Smith</strong> commented on your picture
+
+          </div>
+          <p class="when-posted">1 week ago</p>
+
+
+        </div>
+        <div class="right-image"><img src="assets/images/image-chess.webp" alt="Women playing chess"></div>
+      </section>
+
+      <section class="read-post">
+        <div class="left-post-side"><img src="assets/images/avatar-nathan-peterson.webp"
+            alt="Nathan Peterson's Profile Picture">
+        </div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Nathan Peterson</strong> reacted to your recent post <span class="stronger">5 end-game strategies to
+              increase your
+              win rate</span>
+          </div>
+          <p class="when-posted">2 weeks ago</p>
+        </div>
+      </section>
+
+      <section class="read-post">
+        <div class="left-post-side"><img src="assets/images/avatar-anna-kim.webp" alt="Anna Kim's Profile Picture">
+        </div>
+        <div class="right-post-side">
+          <div class="right-top-side">
+            <strong>Anna Kim</strong> left the group <span class="chess-club">Chess Club</span>
+          </div>
+          <p class="when-posted">2 weeks ago</p>
+        </div>
+      </section>
+
+    </main>
+  </container>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Tomasz Bartnikiewicz</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
